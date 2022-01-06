@@ -1,0 +1,50 @@
+.pl {
+    padding : 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #E56B6F;
+}
+
+.pl-texts {
+    width:65%;
+}
+
+.pl-title {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.pl-desc {
+    margin: 20px 0px;
+}
+
+.pl-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+@media screen and (max-width:480px) {
+    .pl {
+        padding:10px;
+        
+        
+    }
+
+    .pl-title {
+        font-size: 2.5em;
+    }
+
+    .pl-texts {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .pl{
+        padding:40px 40px;
+    }
+}
