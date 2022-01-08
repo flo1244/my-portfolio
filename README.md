@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# Welcome to My Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hello 👋  and welcome!
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Overview
+I built my portfolio as a greenfield react.js project. My portfolio showcases some of my best work. I hope you enjoy and talk to you soon!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### The challenge
 
-### `npm test`
+Users should be able to:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Navigate through portfolio with nav bar.
+- Change theme from light to dark mode.
+- Click and view projects in production mode.
+- Submit contact information in form.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Screenshot
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![](./screenshot.gif)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Links
 
-### `npm run eject`
+- Live Site URL: [Portfolio](https://flo1244.github.io/my-portfolio/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## My process
+I went through a course of reflection, and wanted to develop a React.js application that is fully functional and interactive. The project is complied in components so that it can be easily updated. Media queries were implemented so that the project is responsive to multiple screen widths (mobile, tablet, laptop, desktop). Added a contact form to be able to recieve email from users. Contact form uses EmailJS library to connect to my email. Lastly, added a toggle button that allows the application to switch between "Light" and "Dark" mode made with context API.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Built with
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Semantic HTML5 markup
+- CSS custom properties and animation
+- Flexbox
+- Responsive Design
+- JSX
+- ES6
+- Context API
+- [React](https://reactjs.org/) - JS library
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### What I learned
 
-## Learn More
+I learned some new techniques along the way that made customizing my portfolio easier. Context API allowed me to share data with multiple components, without having to pass data through props manually.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To see how you can add code snippets, see below:
+```const Toggle = () => {
+    const theme = useContext(ThemeContext);
+    const handleClick = () => {
+        theme.dispatch({type:"TOGGLE"})
+    }
+    return (
+        <div className="t">
+            <FontAwesomeIcon className="t-icon" icon={faSun} />
+            <FontAwesomeIcon className="t-icon" icon={faMoon} />
+            <div className="toggle-button" onClick={handleClick} style={{ left: theme.state.darkMode ? 0 : 25}}>
+                
+            </div>
+        </div>
+    )
+}```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Continued development
 
-### Code Splitting
+My journey will continue by re-enforcing my skills in new projects and freelancing. I plan on learning more languages such Ruby, and develop with Wordpress. I want to push the boundaries and create beautiful applications. My goal is to land a full-time development position 👩‍💻 .
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Useful resources
 
-### Analyzing the Bundle Size
+- [EmailJS](https://www.emailjs.com/docs/examples/reactjs/) - Allowed the contact form to send information to my email.
+- [Font Awesome ](https://fontawesome.com/v5.15/how-to-use/on-the-web/using-with/react) - This is an amazing article which helped me finally understand how to implement FontAwesome icons in React.js.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Author
 
-### Making a Progressive Web App
+- LinkedIn - [Resume](https://www.linkedin.com/in/florence-hollowell-963a16115/)
+- Twitter - [@techcodeflo](https://twitter.com/techcodeflo)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+I want to shout out to SkillCrush community for helping me along the way of becoming a Front-End Developer. With out the help of my instructors, classmates, and friends I wouldn't have discovered my passion for development. 
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
