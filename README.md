@@ -58,20 +58,20 @@ I learned some new techniques along the way that made customizing my portfolio e
 
 To see how you can add code snippets, see below:
 ```const Toggle = () => {
-    const theme = useContext(ThemeContext);
-    const handleClick = () => {
-        theme.dispatch({type:"TOGGLE"})
-    }
-    return (
-        <div className="t">
-            <FontAwesomeIcon className="t-icon" icon={faSun} />
-            <FontAwesomeIcon className="t-icon" icon={faMoon} />
-            <div className="toggle-button" onClick={handleClick} style={{ left: theme.state.darkMode ? 0 : 25}}>
-                
-            </div>
-        </div>
-    )
-}```  ```
+  ```   const theme = useContext(ThemeContext);
+    ``` const handleClick = () => {
+   ```      theme.dispatch({type:"TOGGLE"})
+  ```   }
+  ```   return (
+    ```     <div className="t">
+   ```          <FontAwesomeIcon className="t-icon" icon={faSun} />
+   ```          <FontAwesomeIcon className="t-icon" icon={faMoon} />
+   ```          <div className="toggle-button" onClick={handleClick} style={{ left: theme.state.darkMode ? 0 : 25}}>
+  ```               
+  ```           </div>
+  ```       </div>
+ ```    )
+  ```} 
 
 ### Continued development
 
