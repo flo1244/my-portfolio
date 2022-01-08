@@ -71,7 +71,7 @@ To see how you can add code snippets, see below:
             </div>
         </div>
     )
-}```
+}```  ```
 
 ### Continued development
 
