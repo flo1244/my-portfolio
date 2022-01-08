@@ -15,6 +15,7 @@
 
 .a-right {
     flex: 1;
+    padding-right: 15px;
 }
 
 .a-card.bg {

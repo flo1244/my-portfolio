@@ -4,7 +4,7 @@ import {products} from "../../data.js";
 
 const ProjectList = () => {
     return (
-        <div className="pl">
+        <section id="projects" className="pl">
             <div className="pl-texts">
                 <h1 className="pl-title">
                     My Portfolio Projects
@@ -22,7 +22,7 @@ const ProjectList = () => {
                 
             </div>
             
-        </div>
+        </section>
     );
 };
 

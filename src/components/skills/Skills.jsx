@@ -13,7 +13,7 @@ import { faGem } from "@fortawesome/free-solid-svg-icons";
 const Skills = () => {
     return (
         
-        <div className="skills">
+        <section id="skills" className="skills">
             <div className="s-content">
                 <h1 className="s-title">Skills</h1>
                 <h3 className="s-sub-title">Developer Skills</h3>
@@ -40,7 +40,7 @@ const Skills = () => {
                       <p class="tool">Visual Studio Code</p>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

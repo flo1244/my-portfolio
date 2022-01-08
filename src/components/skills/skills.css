@@ -32,7 +32,7 @@
 
 .language-wrapper {
      display: flex;
-     justify-content: space-evenly;
+     justify-content: center;
      align-items: center;
      flex-flow: row wrap;
 
@@ -56,15 +56,10 @@
     font-size: 80px;
 }
 
-.skill:hover {
-     -webkit-transform: scale(1.2);
-     -ms-transform: scale(1.2);
-     transform: scale(1.2);
-}
 
 .coming-soon {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-flow: row wrap;
 }
@@ -96,11 +91,6 @@
      
 }
 
-.tool:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-}
 
 @media screen and (max-width:480px) {
   .skills {

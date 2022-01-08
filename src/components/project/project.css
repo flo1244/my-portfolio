@@ -31,8 +31,29 @@
     width: 100%;
     height: 100%;
 }
+@media  (max-width: 1024px){
+    .p {
+        width: 45%;
+    }
 
-@media screen and (max-width:480px) {
+    .p-wrapper {
+        height: 20vh ;
+    }
+}
+    
+
+
+@media (max-width:768px) {
+    .p {
+        width: 40%;
+    }
+
+    .p-wrapper {
+        height: 20vh;
+    }
+}
+
+@media (max-width:480px) {
     .p {
         width: 70%;
     }
@@ -42,8 +63,5 @@
     }
 }
 
-@media screen and (max-width:768px) {
-    .p-wrapper {
-        height: 30vh;
-    }
-}
+
+
