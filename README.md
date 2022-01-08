@@ -56,23 +56,6 @@ I went through a course of reflection, and wanted to develop a React.js applicat
 
 I learned some new techniques along the way that made customizing my portfolio easier. Context API allowed me to share data with multiple components, without having to pass data through props manually.
 
-```const Toggle = () => {
-  ```   const theme = useContext(ThemeContext);
-    ``` const handleClick = () => {
-   ```      theme.dispatch({type:"TOGGLE"})
-  ```   }
-  ```   return (
-    ```     <div className="t">
-   ```          <FontAwesomeIcon className="t-icon" icon={faSun} />
-   ```          <FontAwesomeIcon className="t-icon" icon={faMoon} />
-   ```          <div className="toggle-button" onClick={handleClick} style={{ left: theme.state.darkMode ? 0 : 25}}>
-  ```               
-  ```           </div>
-  ```       </div>
- ```    )
-  ```} 
-
-
 ### Continued development
 
 My journey will continue by re-enforcing my skills in new projects and freelancing. I plan on learning more languages such Ruby, and develop with Wordpress. I want to push the boundaries and create beautiful applications. My goal is to land a full-time development position 👩‍💻 .
