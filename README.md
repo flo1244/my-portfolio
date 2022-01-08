@@ -18,7 +18,7 @@ Hello 👋  and welcome!
 
 
 ## Overview
-I built my portfolio as a greenfield react.js project. My portfolio showcases some of my best work. I hope you enjoy and talk to you soon!
+I built my portfolio as a greenfield React.js project. My portfolio showcases some of my best work. I hope you enjoy and talk to you soon!
 
 ### The challenge
 
